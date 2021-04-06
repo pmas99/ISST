@@ -1,0 +1,200 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<body>
+  <ul>
+      <li class="title">ELECTOLAB</li>
+      <li><a class="navbar" href="index.html">Inicio</a></li>
+      <li><a class="navbaractive" href="analisisRealizados.html">Análisis Realizados</a></li>
+      <li><a class="navbar" href="historial.html">Resultados Previos</a></li>
+      <li><a class="navbar" href="simulacion.html">Simulación</a></li>
+      <li class="loginloc"><a class="login" href="login.html">Log In</a></li>
+  </ul>
+
+    
+<div class="intro"> En este apartado ofrecemos la posibilidad de ver análisis realizados por diferentes analistas. Selecciona los registros que prefieras y te saldrán los resultados relacionados con esos parametros</div>
+   
+
+<h1>Andalucía</h1> 
+
+
+<div class= "row">
+  
+  <div class= "column">
+
+      <div class= "infoDiv">
+          <br>Autor: </br>
+
+          <select name="transporte" class= "selector">
+
+              <option>Manolo Gomez</option>
+              
+              <option>Javier Navarro</option>
+              
+              <option>Oscar López</option>
+              
+          </select>
+      </div>
+  </div>
+  <div class= "column">
+      <div class= "infoDiv">
+        <br>Ley: </br>
+        
+        <select name="transporte" class= "selector">
+
+            <option>Ley de patrimonio</option>
+            
+            <option>20-04-1995</option>
+            
+            <option >20-04-1995</option>
+            
+        </select>
+    </div>
+  </div>
+  <div class= "column">
+    <div class= "infoDiv">
+      <br>Fecha de publicación: </br>
+
+      <select name="transporte" class= "selector">
+
+          <option>20 de abril de 1995</option>
+          
+          <option>20-04-1995</option>
+          
+          <option >20-04-1995</option>
+          
+      </select>
+    </div>
+  </div>
+
+</div> 
+
+
+<div class="intro"> 
+  <br>Resultados:</br>
+
+  <p><br>Manolo Gomez, Ley del aborto , 20 de abril de 2021 </br></p>
+  <p><br>Javier Navarro, Ley de protección de datos , 10 de abril de 2021 </br></p>
+  <p><br>Oscar López, Ley de patrimonio , 23 de mayo de 2021 </br></p>
+</div>
+   
+
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    .loginloc{
+        margin-left: 30%;
+         }
+    p {
+      text-decoration: underline;
+      color:blue;
+    }
+    .selector{   
+      text-align-last:center;
+      margin:20;
+      height:12%;
+      width: 70%;
+    }
+    .infoDiv{        
+      margin-top: 10%;
+      text-align: center;
+    /* margin-left: 20%;
+      margin-right: 20%;*/
+      font-size: 20px;
+    }
+    .intro{
+      font-size: 20px;
+      margin-top:15;
+      text-align: start;
+    }
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    }
+
+    ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4f4f;
+    }
+
+    h1 {
+      margin: 25;
+      text-align: center
+    }
+
+    li {
+      float: left;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    .title{
+      margin-left: 10%;
+      margin-right: 3%;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .login{
+        
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+    .navbar{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navbaractive{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: #5f9ea0;
+    }
+    .intro {
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 20px;
+    }
+  </style>
